@@ -40,31 +40,6 @@ $date = date('d/m/Y',);
            else {
                
         $link = "https://papara.com/personal/qr?amount=".$amount."&accountNumber=".$accountNumber."&description=".$description."";
-        $db=new PDO("mysql:host=localhost; dbname=paparaqr", 'root', '');
-            
- 
-        $save=$db->prepare("INSERT INTO api SET
-
-         accountNumber=:accountNumber,
-         amount=:amount,
-         descript=:descript,
-         ip=:ip,
-         browser=:browser,
-         browserLang=:browserLang
-        ");
-        
-        $log=$save->execute(array(
-
-         'accountNumber'=>$accountNumber,
-         'amount'=>$amount,
-         'descript'=>$description,
-         'ip'=>$IpAdress,
-         'browser'=>$Browser,
-         'browserLang'=>$BrowserLang
-        
-            )); 
-
-
            }
 
      }
