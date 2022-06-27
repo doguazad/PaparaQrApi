@@ -61,9 +61,9 @@ Some bug reports and explanations:
 We have edited all these errors for you to make your payment more securely. We will show you errors as a warning on the screen. You can also view it via the url. Example usage:
 ```http://papara-api.suppart.site/index.php?value=id```
 <br /><br /><br />
- <img src="https://raw.githubusercontent.com/doguazad/PaparaQrApi/main/ss.png" alt="Logo" width="1100" height="600">
+ <img src="https://raw.githubusercontent.com/doguazad/PaparaQrApi/main/ss.png" alt="Logo" width="1100" height="500">
  <hr>
- <img src="https://raw.githubusercontent.com/doguazad/PaparaQrApi/main/ss2.png" alt="Logo" width="1100" height="600">
+ <img src="https://raw.githubusercontent.com/doguazad/PaparaQrApi/main/ss2.png" alt="Logo" width="1100" height="500">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
